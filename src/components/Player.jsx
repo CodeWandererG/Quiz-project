@@ -6,6 +6,7 @@ export function Player(){
 
     const handleClick = () =>{
         setEnterPlayerName(playerName.current.value);
+        playerName.current.value = "";
     }
     return (
         <section id="player">
